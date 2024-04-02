@@ -1,0 +1,52 @@
+.cabecalho{
+    margin: 1.13em 5em;
+    padding: 2.75;
+    display: flex;
+    font-family: var(--fonte-primaria);
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.cabecalho__logo{
+    display: flex;
+    align-items: baseline;
+    gap: 0 0.5em;
+}
+
+.cabecalho__logo__nome {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cabecalho__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__links__decoracao {
+    text-decoration: none;
+    color: var(--cinza-primario);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0.375em 2em;
+}
+
+.cabecalho__botao {
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+.branco {
+    margin-left: 15em;
+    color: var(--cinza-primario);
+}
+
+.vinho {
+    color: var(--branco);
+    background-color: var(--vinho);
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    
+}

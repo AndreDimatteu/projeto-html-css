@@ -1,0 +1,15 @@
+@import url("./estilos/cabecalho.css");
+@import url("./estilos/reset.css");
+@import url("./apresentacao.css");
+
+:root{
+    --branco: #FFFFFF;
+    --branco-rodape: #F9FAFB;
+    --vinho: #8E2424;
+    --cinza-primario: #667085;
+    --cinza-secundario: #98A2B3;
+    --cinza-email: #D0D5DD;
+    --preto: #101828;
+    --fonte-primaria: "Inter", sans-serif;
+    --rosa: rgb(195, 25, 25, 3%);
+}
